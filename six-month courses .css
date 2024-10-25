@@ -1,0 +1,18 @@
+.nav-bar {
+    height: 60px;
+    background-color: rgb(165, 214, 198);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.nav-link ul li {
+    display: inline-block;
+}
+
+.nav-link li a { 
+   padding-left: 10px;
+   text-decoration: none;
+}
+
