@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll | Empowering The Nation</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+<header>
+    <h1>Enroll in a Course</h1>
+</header>
+
+<nav>
+    <li><a href="Homepage.html">Home</a></li>
+    <li><a href="child-minding-six-week.html">Six week courses</a></li>
+    <li><a href="first-aid-six-month.html">Six month courses</a></li>
+    <li><a href="contact-us.html">Contact Details</a></li>
+    <li><a href="calculate-fees.html">Calculate fees</a></li>
+    <li><a href="enroll.html">Enroll</a>
+</nav>
+
+<section>
+    <h2>Enrollment Form</h2>
+    <form action="submit_enrollment.php" method="POST" class="enrollment-form">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+        <fieldset>
+            <legend>Select Courses:</legend>
+            <label>
+                <input type="checkbox" name="courses[]" value="life-skills">
+                Life Skills
+            </label><br>
+            <label>
+                <input type="checkbox" name="courses[]" value="landscaping">
+                Landscaping
+            </label><br>
+            <label>
+                <input type="checkbox" name="courses[]" value="first-aid">
+                First Aid
+            </label><br>
+            <label>
+                <input type="checkbox" name="courses[]" value="sewing">
+                Sewing
+            </label>
+            <input type="checkbox" name="courses[]" value="landscaping">
+                Child-minding
+            </label><br>
+            <input type="checkbox" name="courses[]" value="landscaping">
+                Cooking
+            </label><br>
+            <label>
+                <input type="checkbox" name="courses[]" value="landscaping">
+                Gardern maintenance
+            </label><br>
+            <label>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <button><a href="Calculate fees">back</a></button>
+        <button><a href="Homepage.html">Homepage</a></button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Empowering The Nation. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
